@@ -1,0 +1,112 @@
+/* Base Properties */
+*{
+	box-sizing: border-box;
+	margin: 0;
+  	padding: 0;
+}
+
+body{
+/*	margin-left: 20px;
+	margin-right: 20px;*/
+	/*margin: 10px;*/
+	/*align-content: center center;*/
+}
+
+h1{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+#section1{
+	width: 100%;  	
+	border: 1px solid black;	
+	margin: 25px 10px;
+	padding: 10px;	
+	background-color: lightpink;
+	position: relative;
+}	
+#section2{
+	width: 100%;		
+	border: 1px solid black;	
+	margin: 25px;
+	padding: 10px;
+	background-color: lightpink;
+	position: relative;
+}	
+#section3{
+	width: 100%;	
+	border: 1px solid black;	
+	margin: 25px;
+	padding: 10px;
+	background-color: lightpink;
+	position: relative;
+}
+
+#section1Title{	
+	background-color: yellow;
+	border: 1px solid black;
+	text-align: center;	
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 20%;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+#section2Title{
+	background-color: lightgreen;	
+	border: 1px solid black;
+	text-align: center;	
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 20%;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+#section3Title{
+	background-color: lightblue;
+	border: 1px solid black;
+	text-align: right;	
+	text-align: center;	
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 20%;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+@media (min-width: 992px){
+  	#section1{
+  		width: 33.33%;    		
+  		float: left;
+  		margin: 10px 10px 10px 25px;  		
+	}	
+	#section2{
+		width: 33.33%;
+		float: left;  	
+		margin: 10px;		
+	}	
+	#section3{
+		width: 33.33%;
+		float: left;  			
+		margin: 10px 25px 10px 10px;
+	}	
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#section1{
+  		width: 50%;    		
+  		float: left;  		
+	}	
+	#section2{
+		width: 50%;
+		float: left;  			
+	}	
+	#section3{
+		width: 100%;
+		clear: left;		
+	}	
+}
