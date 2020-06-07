@@ -6,8 +6,8 @@
 }
 
 body{
-/*	margin-left: 20px;
-	margin-right: 20px;*/
+	margin-left: 20px;
+	margin-right: 20px; /*fixed mobile*/
 	/*margin: 10px;*/
 	/*align-content: center center;*/
 }
@@ -21,7 +21,8 @@ h1{
 #section1{
 	width: 100%;  	
 	border: 1px solid black;	
-	margin: 25px 10px;
+	margin-bottom: 25px;
+/*	margin: 25px 10px;*/
 	padding: 10px;	
 	background-color: lightpink;
 	position: relative;
@@ -29,7 +30,8 @@ h1{
 #section2{
 	width: 100%;		
 	border: 1px solid black;	
-	margin: 25px;
+	margin-bottom: 25px;
+/*	margin: 25px 10px;*/
 	padding: 10px;
 	background-color: lightpink;
 	position: relative;
@@ -37,7 +39,7 @@ h1{
 #section3{
 	width: 100%;	
 	border: 1px solid black;	
-	margin: 25px;
+	/*margin: 25px 10px;*/
 	padding: 10px;
 	background-color: lightpink;
 	position: relative;
@@ -80,33 +82,48 @@ h1{
 
 @media (min-width: 992px){
   	#section1{
-  		width: 33.33%;    		
+  		width: 30%;    		
   		float: left;
-  		margin: 10px 10px 10px 25px;  		
+  		margin-right: 20px;
+  		/*margin: 10px 10px 10px 25px;  */		
 	}	
 	#section2{
-		width: 33.33%;
+		width: 30%;
 		float: left;  	
-		margin: 10px;		
+		margin-right: 20px;
+		/*margin: 10px;	*/	
 	}	
 	#section3{
-		width: 33.33%;
+		width: 30%;
 		float: left;  			
-		margin: 10px 25px 10px 10px;
+		/*margin: 10px 25px 10px 10px;*/
 	}	
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+/*	body{
+		margin-right: 20px;
+		margin-left:20px;
+	}*/
 	#section1{
   		width: 50%;    		
-  		float: left;  		
+  		float: left;  	
+  		margin-right:0px;
+  	/*	margin: 25px 10px;*/
 	}	
 	#section2{
 		width: 50%;
-		float: left;  			
+		float: right;  
+			/*	position: relative;
+				left: 20;*/
+
+		/*margin-right: 10px;*/
+	/*	margin: 25px 10px;*/
 	}	
 	#section3{
+		/*width: 97.9%;*/
 		width: 100%;
-		clear: left;		
+		clear: left;	
+		/*margin: 25px 25px 25px 10px;*/
 	}	
 }
